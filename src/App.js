@@ -68,7 +68,7 @@ class App extends Component {
       <div
         className={
           "App container " +
-          (this.state.loadingConditions ? "app-loading-overlay" : "")
+          (this.state.loadingConditions || this.state.loadingPatientInfo ? "app-loading-overlay" : "")
         }
       >
         <header className="row">
