@@ -52,7 +52,7 @@ class App extends Component {
   getConditionsForPatient(patientId) {
     this.setState({ loadingConditions: true });
     apiService.getConditionsForPatient(patientId).then(result => {
-      if (result) {
+      if (result && result.entry) {
         this.setState({
           loadingConditions: false,
           patientConditions: result.entry
