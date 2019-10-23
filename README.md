@@ -1,3 +1,8 @@
+## NOTE:
+
+ Some Sandbox Cerner server sometimes returns 500 for no reason. Particularly Pacient endpoint: GET https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Patient?_id=4342009. Please try again later if you experience that.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
